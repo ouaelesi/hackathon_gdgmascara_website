@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(26, 26, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-page{
+    margin-top: 100px;
+    position: relative;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+    background: white;
+    display: flex;
+    border-radius: 20px;
+}
+
+ img{
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.form{
+    border-radius: 20px;
+    z-index: 1;
+    background: #FFFFFF;
+    width: 360px;
+    padding: 45px;
+    text-align: center;
+    
+}
+
+.form input{ 
+    border-radius: 10px;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.form button{
+    border-radius: 20px;
+    text-transform: uppercase;
+    outline: 0;
+    background-image:linear-gradient(rgba(67, 176, 241,1),#1E3D58);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.form button:hover,.form button:active{
+   background-image:linear-gradient(rgba(67, 176, 241,1),rgba(67, 176, 241,1));
+}
+
+.form .message{
+    margin-top: 15px;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.form .message a{
+    text-decoration: none;
+    color: #4caf50;
+}
